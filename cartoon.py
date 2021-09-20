@@ -25,11 +25,17 @@ def cartoonify(ImagePath):
     ReSized5 = cv2.resize(colorImage, (960, 540))
     cartoonImage = cv2.bitwise_and(colorImage, colorImage, mask=getEdge)
     ReSized6 = cv2.resize(cartoonImage, (1000, 1500))
+    print('Resized6')
     fig=plt.imshow(ReSized6)
+    print('1')
     fig.set_cmap('hot')
+    print('2')
     fig.axes.get_xaxis().set_visible(False)
+    print('3')
     fig.axes.get_yaxis().set_visible(False)
+    print('4')
     plt.savefig('public/Cartoon.jpeg')
+    print('5')
 
 ImagePath=sys.argv[1]
 cartoonify(ImagePath) 
