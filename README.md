@@ -11,6 +11,7 @@ Here our objective is to transform images into cartoon using openCV
 7. Giving a Cartoon Effect
 8. Saving the image
 
-### Input Image
+### Input Image                                                                         Output Image
+![Screenshot](images.jpeg)                                                 ![Screenshot](images.jpeg) 
 
 ### Flowchart
