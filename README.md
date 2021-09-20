@@ -1,3 +1,5 @@
+## UCS757 Building Innovative Systems
+## Project 1
 # Cartoonify an Image with OpenCV in Python.
 Here our objective is to transform images into cartoon using openCV
 
