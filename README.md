@@ -11,10 +11,19 @@ Here our objective is to transform images into cartoon using openCV
 7. Giving a Cartoon Effect
 8. Saving the image
 
+### Live Link
+https://cartoonify-nitish.herokuapp.com/
+
 ### Input Image                                                                       
 ![Screenshot](input.jpeg) 
+
 ### Output Image
 ![Screenshot](output.jpeg) 
 
 ### Flowchart
 ![Screenshot](flowchart.jpeg) 
+
+## Submitted by :- 
+### Nitish Jain
+### 101803154
+### COE8
