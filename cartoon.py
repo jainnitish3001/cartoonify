@@ -1,6 +1,7 @@
 try:
     import cv2 #for image processing
     import sys
+    import os
 except Exception as e:
     print(e)
     
@@ -37,5 +38,7 @@ def cartoonify(ImagePath):
     # plt.savefig('public/Cartoon.jpeg')
     # print('5')
 
-ImagePath=sys.argv[1]
-cartoonify(ImagePath) 
+oldname = sys.argv[1]
+newname = oldname+'.jpg'
+os.rename(oldname,newname)
+cartoonify(newname) 
